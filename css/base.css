@@ -38,7 +38,6 @@ img {
 	line-height: 25px;
 }
 
-
 #logotexte {
 	padding-top:8%;
 	font-size:0.9em;
@@ -49,6 +48,14 @@ img {
 	color:#ff2f66;
 	font-size:3.5em;
 	font-family:'arsenale_whiteregular', "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#phrase2 {
+	font-family:'arsenale_whiteregular', "Trebuchet MS", Arial, Helvetica, sans-serif;
+    padding-top: 1150px;
+    color: rgb(76, 47, 75);
+    font-size: 4.2em;
+	padding-left:18px;
 }
 
 .social{ 
@@ -149,7 +156,6 @@ img {
 	background:url(../images/fond7.png) no-repeat;
 	z-index:0;
 }
-
 
 
 /*
