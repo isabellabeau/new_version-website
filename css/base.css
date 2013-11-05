@@ -53,8 +53,8 @@ img {
 #phrase2 {
 	font-family:'arsenale_whiteregular', "Trebuchet MS", Arial, Helvetica, sans-serif;
     padding-top: 1150px;
-    color: rgb(76, 47, 75);
-    font-size: 4.2em;
+    color:white;
+    font-size: 5.6em;
 	padding-left:18px;
 }
 
@@ -153,7 +153,7 @@ img {
 
 #slide5 {
 	width:100%;
-	background:url(../images/fond7.png) no-repeat;
+	background: url(../images/fond5.png) left bottom repeat-x, url(../images/fond7.png);
 	z-index:0;
 }
 
