@@ -27,6 +27,7 @@ img {
 .relative{position:relative;}
 
 /* 5 */
+
 #logoisabellabeau{
 	margin:10px 0 40px 0  !important;
 }
@@ -87,12 +88,21 @@ img {
     filter:alpha(opacity=40); /* For IE8 and earlier */
 }
 
+#go5:hover{
+	opacity:0.4;
+    filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+
+#go4:hover {
+	opacity:0.4;
+    filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+
 #secret{
 	padding-top:200px;
 	color:white !important;
 	font-size:9.5em !important;
 	line-height:70px;
-
 }
 
 #slide6-1 {
@@ -157,10 +167,67 @@ img {
 	z-index:0;
 }
 
+/* 4 */
+
+.CV li{
+ font-family: Arial, sans-serif;
+ font-size:0.8em;
+ color:white;
+ list-style-type: none;
+ background: url(../images/slide5_CV.png) no-repeat scroll 595px center transparent;
+ text-align:right;
+ margin-bottom: 10px;
+} 
+
+.CV li a{
+ color:white;
+}
+
+.CV li a:hover{
+	color:white;
+	opacity:0.2;
+	filter:alpha(opacity=20); /* For IE8 and earlier */
+}
+
+#isabellabeau {
+}
+
+#texte-about {
+	font-family:'Varela Round', sans-serif, Georgia, "Times New Roman", Times, serif;
+	font-size:1.3em;
+	text-align:justify;
+	color:#c2a8c4;
+	line-height:21px;
+	padding-bottom: 20px;
+}
+
+#titre2 {
+	color:#bd2944;
+	font-family: 'Miniver', cursive, Verdana, Geneva, sans-serif;
+	font-size:1.5em;
+}
+
+#titre-aboutme {
+	font-family:'Varela Round', sans-serif, Georgia, "Times New Roman", Times, serif;
+	left:37.5%;
+	text-transform: uppercase;
+	font-size:1.8em;
+	letter-spacing:10px;
+	color:#ff8454;
+	padding: 60px 0 20px;
+}
+
+#slide4 {
+	width:100%;
+	height:646px;
+	background: url(../images/fond5.png) repeat;
+}
+
+
+
 
 /*
-#sixth { background: url(../images/fond6.png) 50% 0 no-repeat; }
-#fifth { background: url(../images/fond5.png) 50% 0 no-repeat; }
+
 #fourth { background: url(../images/fond4.png) 50% 0 no-repeat; }
 #third { background: url(../images/fond3.png) 50% 0 no-repeat #d2c608; }
 #second  { background: url(../images/fond2.png) 50% 0 no-repeat; }
