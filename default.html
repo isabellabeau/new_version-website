@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>isabellabeau.com</title>
+<meta name="description" content="Isabel Labeau. Interface designer & illustrator." />
+<meta name="keywords" content="creativity, imagination, surrealisme, natural, illustration, interface, design, graphics, graphic design, web design, social, green, parallax, css3, html5, paris, mexico, isabellabeau" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+<!-- google fonts -->
+<link href='http://fonts.googleapis.com/css?family=Raleway:bold,thin' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Miniver' rel='stylesheet' type='text/css'>
+
+<!-- main css -->
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/skeleton.css">
+<link rel="stylesheet" href="css/jquery.fancybox.css">
+
+<!-- media queries css -->
+<link href="css/media-queries.css" rel="stylesheet" type="text/css">
+
+<!-- html5.js for IE less than 9 -->
+<!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+<!-- css3-mediaqueries.js for IE less than 9 -->
+<!--[if lt IE 9]>
+            <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+        <![endif]-->
+
+<!-- js -->
+<!--<script src="js/script.js"></script>-->
+<script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+<script src="js/plugins.js"></script>
+<script src="js/modernizr-2.6.2.min.js"></script>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+<script type="text/javascript" src="js/gmaps.js"></script>
+<script type="text/javascript" src="js/jquery.lettering.js"></script>
+<script type="text/javascript" src="js/jquery.sticky.js"></script>
+<script type="text/javascript" src="js/modernizr.custom.js"></script>
+<script type="text/javascript" src="js/easing-min.js"></script>
+<!--<script type="text/javascript" src="js/template.js"></script> -->
+<script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
+<script type="text/javascript" src="js/contact.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox-media.js?v=1.0.5"></script>
+<script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+<script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.localscroll-1.2.7-min.js"></script>
+<script type="text/javascript" src="js/jquery.scrollTo-1.4.2-min.js"></script>
+<script type="text/javascript" src="js/jquery.stapel.js"></script>
+<script type="text/javascript" src="js/jquery.cycle.all.js"></script>
+<script type="text/javascript" src="js/jquery.maximage.js"></script>
+<!--<script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-44736743-1');ga('send','pageview');
+        </script>-->
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui.js"></script>
+<script type="text/javascript" src="js/jquery.scrollorama.js"></script>
+<script>
+
+
+$(function(){
+	
+	var scrollorama = $.scrollorama({ blocks:'#bloc1, #bloc2', enablePin:false});
+	scrollorama.animate('#idea',{ delay: 600, duration: 100, property:'opacity', start:1, end:0})
+		.animate('#sueno',{ delay: 500, duration: 100, property:'opacity', start:1, end:0})
+		.animate('#fija',{ delay: 450, duration: 100, property:'opacity', start:1, end:0});
+		
+	
+	scrollorama.animate('#imagination',{ delay: 400, duration: 100, property:'opacity', start:1, end:0})
+		.animate('#viajo',{ delay: 300, duration: 100, property:'opacity', start:1, end:0})
+		.animate('#llevar',{ delay: 200, duration: 100, property:'opacity', start:1, end:0})
+		.animate('#interior',{ delay: 100, duration: 100, property:'opacity', start:1, end:0})
+		.animate('#imagenes',{ delay: 30, duration: 100, property:'opacity', start:1, end:0})
+		.animate('#tangible',{ delay: 20, duration: 50, property:'opacity', start:1, end:0});
+		
+	var scrollorama = $.scrollorama({ blocks:'#bloc4', enablePin:false});
+	scrollorama.animate('#instrumento',{ delay: 350, duration: 100, property:'opacity', start:1, end:0})
+		.animate('#experiencias',{ delay: 100, duration: 100, property:'opacity', start:1, end:0})
+		.animate('#esencia',{ delay: 10, duration: 100, property:'opacity', start:1, end:0});
+	
+	
+	
+	$(window).on('scroll', function() {
+	var $tronc = $('#tronco1');
+	var $raiz1 = $('#raiz-tronco-01');
+	var $raiz2 = $('#raiz-tronco-02');
+	var $raiz3 = $('#raiz-tronco-03');
+	var st = window.scrollY;
+	var $troncTop = ($tronc.position().top)+100;
+	var $size1 = 100+($troncTop-st);
+	var $size2 = 70+($troncTop-st);
+	var $size3 = 87+($troncTop-st);
+	
+	if ( st >= $troncTop && st <= ($troncTop + 100)) {
+		$raiz1.stop().animate({'width':+$size1+'px','height':+$size1+'px' }, 500);
+		$raiz2.stop().animate({'width':+$size2+'px','height':+$size2+'px' }, 10);
+		$raiz3.stop().animate({'width':+$size3+'px','height':+($size3*1.46)+'px' }, 0);
+	}
+	
+	var $tronc2 = $('#tronco2');
+	var $slide1 = $('#slide4-1');
+	var $slide2 = $('#slide4-2');
+	var $slide3 = $('#slide4-3');
+	var $tronc2Top = ($tronc2.position().top)+100;
+	var $size21 = 110+($tronc2Top-st);
+	var $size22 = 147+($tronc2Top-st);
+	var $size23 = 78+($tronc2Top-st);
+	
+	if ( st >= $tronc2Top && st <= ($tronc2Top + 100)) {
+		$slide1.stop().animate({'width':+$size21+'px','height':+$size21+'px' }, 500);
+		$slide2.stop().animate({'width':+$size22+'px','height':+$size22+'px' }, 10);
+		$slide3.stop().animate({'width':+$size23+'px','height':+($size23*1.08)+'px' }, 0);
+	}
+	
+	var $tronc3 = $('#tronco3');
+	var $slide1 = $('#slide6-1');
+	var $slide2 = $('#slide6-2');
+	var $slide3 = $('#slide6-3');
+	var $slide4 = $('#slide6-4');
+	var $slide5 = $('#slide6-5');
+	var $tronc3Top = ($tronc3.position().top)+450;
+	var $size31 = 114+($tronc3Top-st);
+	var $size32 = 38+($tronc3Top-st);
+	var $size33 = 38+($tronc3Top-st);
+	var $size34 = 30+($tronc3Top-st);
+	var $size35 = 82+($tronc3Top-st);
+	
+	if ( st >= $tronc3Top && st <= ($tronc3Top + 450)) {
+		$slide1.stop().animate({'width':+$size31+'px','height':+$size31+'px' }, 500);
+		$slide2.stop().animate({'width':+$size32+'px','height':+$size32+'px' }, 10);
+		$slide3.stop().animate({'width':+$size33+'px','height':+$size33+'px' }, 0);
+		$slide4.stop().animate({'width':+$size34+'px','height':+$size34+'px' }, 0);
+		$slide5.stop().animate({'width':+$size35+'px','height':+($size35*1.26)+'px' }, 0);
+	}
+	
+	
+    })
+    .scroll();
+	
+});
+
+</script>
+</head>
+<body>
+<!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+<section id="tronco3">
+  <img id="slide6-1" src="images/slide6_1.png" width="114" height="116" alt="">
+  <img id="slide6-2" src="images/slide6_2.png" width="38" height="38" alt="">
+  <img id="slide6-3" src="images/slide6_3.png" width="38" height="38" alt="">
+  <img id="slide6-4" src="images/slide6_4.png" width="30" height="30" alt="">
+  <img id="slide6-5" src="images/slide6_5.png" width="82" height="104" alt=""></div>
+</section>
+<section id="tronco2">
+  <img id="slide4-1" src="images/slide4_1.png" width="108" height="110" alt="">
+  <img id="slide4-2" src="images/slide4_2.png" width="147" height="135" alt="">
+  <img id="slide4-3" src="images/slide4_3.png" width="77" height="78" alt="">
+</section>
+<section id="tronco1">
+ <img id="raiz-tronco-01" src="images/raiz-tronco_01.png" width="100" height="100" alt="">
+  <img id="raiz-tronco-02" src="images/raiz-tronco_02.png" width="70" height="70">
+   <img id="raiz-tronco-03" src="images/raiz-tronco_03.png" width="87" height="123" alt="">
+  <div id="crecer" class="raleway absolute">so as to <b>grow</b></div>
+  <div id="seed"><a href="#volet" class="grown"><img src="images/seed.png" width="14" height="14" alt=""></a></div>
+</section>
+
+<!-- Section#7-->
+<section id="seventh" class="smallslides">
+  <div id="bloc7" class="container mil">
+    <p id="follow-me" class="absolute arsenale rosa">Get in touch &amp; follow me :</p>
+    <p><img id="pinterest" src="images/slide7_pinterest.png" width="34" height="34" alt=""></p>
+    <p><img id="myblog" src="images/slide7_myblog.png" width="34" height="34" alt=""></p>
+    <p><img id="emailme" src="images/slide7_email.png" width="34" height="34" alt=""></p>
+    <p><img id="facebook" src="images/slide7_facebook.png" width="34" height="34" alt=""></p>
+    <p><img id="twitter" src="images/slide7_twitter.png" width="34" height="34" alt=""></p>
+    <p id="credits">Made in paris with love by :</p>
+    <p id="textecredits"><b>Isabel Labeau:</b> Design, concept, illustrations, CSS5 & HTML5 <br>
+      <b>Kamel Gharbi:</b> Javascript</p>
+    <p id="logoisabellabeau"></p>
+    <p id="logotexte">&copy; isabellabeau.com 2013. All rights reserved.</p>
+    
+  </div>
+</section>
+
+<!-- Section#6 -->
+<section id="sixth" class="smallslides">
+  <div id="bloc6" class="container mil">
+    <p id="phrase2">Shall I tell you a secret?<br>
+      When I look through my bedroom window,<br>
+      I see a big beautiful mountain that protects me and I daydream, one of those dreams is...</p>
+    <p id="go2" class="absolute"><img src="images/slide6_go.png" alt=""></p>
+  </div>
+</section>
+
+<!-- Section#5 -->
+<section id="fifth" class="smallslides">
+  <div id="bloc5" class="container mil">
+    <p id="isabellabeau"><img src="images/isabellabeau.png" alt=""></p>
+    <p id="titre-aboutme">Isabel LABEAU </p>
+    <p id="titre2">Interface designer & illustrator</p>
+    <p id="texte-about">i was born in a surreal country: México, full of magic, love, human warmth and plenty of sun; destiny drove me to land in a city as beautiful as Paris.<br>
+      <br>
+      To use my ample imagination and my desire to create, I chose the profession of WebDesigner & illusttrator.<br>
+      <br>
+      Since 1998, I have chosen colors and forms to shape many projects.<br>
+      <br>
+      I have experienced magical moments inspired by art, music, poetry- the incredible people that I have been surrounded by i express all these in illustration.<br>
+      <br>
+      The essence of my work is my childhood, the Little girl that lives inside me. My dreams coalesce in an eternal and internal spark and it is the internal child who speaks, comes forward and is happy to express herself.</p>
+    <p id="go5" class="absolute"><img src="images/go5.png" alt=""></p>
+    <p id="slide5-CV"><img src="images/slide5_CV.png" width="15" height="9" alt=""></p>
+    <p id="CV" class="blanco">My Curriculum Vitae</p>
+  </div>
+</section>
+
+<!-- Section#4 -->
+<section id="fourth" class="smallslides">
+  <div id="bloc4" class="container mil">
+    <p id="esencia" class="texto-frases2"><b>essence</b>...</p>
+    <p id="experiencias" class="texto-frases2">recycle experiences, feelings</p>
+    <p id="instrumento" class="texto-frases2">And I, just an <b>instrument</b></p>
+  </div>
+</section>
+
+<!-- Section#3 -->
+<section id="third" class="slide3">
+  <div id="bloc3" class="container mil">
+    <div class="sixteen columns">
+      <div id="portfolio-filter">
+        <ul id="filter" class="varela">
+          <li><a href="#" class="current" data-filter="*" title="Show all items">Show all</a></li>
+          <li><a href="#" data-filter=".web-design" title="Show all items under Web Design">web design</a></li>
+          <li><a href="#" data-filter=".illustration" title="Show all items under Illustration">illustration</a></li>
+          <li><a href="#" data-filter=".collages" title="Show all items under Collages">collages</a></li>
+          <li><a href="#" data-filter=".photography" title="Show all items under Photography">photography</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container">
+      <div class="one-third column photography">
+        <div class="project1"> <a class="fancybox" href="images/gallery/2t.jpg">
+          <div class="pro-image1"> <img src="images/gallery/1.jpg" alt="" />
+            <div class="mask-w1"></div>
+          </div>
+          </a> </div>
+      </div>
+      <div class="one-third column illustration">
+        <div class="project1"> <a class="fancybox" data-fancybox-group="gallery" href="images/gallery/2t.jpg" title="Project Title">
+          <div class="pro-image1"> <img src="images/gallery/2.jpg" alt="" />
+            <div class="mask-w1"></div>
+          </div>
+          </a> </div>
+      </div>
+      <div class="one-third column photography">
+        <div class="project1"> <a class="fancybox" data-fancybox-group="gallery" href="images/gallery/3t.jpg" title="Project Title">
+          <div class="pro-image1"> <img src="images/gallery/3.jpg" alt="" />
+            <div class="mask-w1"></div>
+          </div>
+          </a> </div>
+      </div>
+      <div class="one-third column web-design">
+        <div class="project1"> <a class="fancybox" href="images/gallery/2t.jpg">
+          <div class="pro-image1"> <img src="images/gallery/4.jpg" alt="" />
+            <div class="mask-w1"></div>
+          </div>
+          </a> </div>
+      </div>
+      <div class="one-third column collages">
+        <div class="project1"> <a class="fancybox" data-fancybox-group="gallery" href="images/gallery/5t.jpg" title="Project Title">
+          <div class="pro-image1"> <img src="images/gallery/5.jpg" alt="" />
+            <div class="mask-w1"></div>
+          </div>
+          </a> </div>
+      </div>
+      <div class="one-third column web-design">
+        <div class="project1"> <a class="fancybox" href="images/gallery/2t.jpg">
+          <div class="pro-image1"> <img src="images/gallery/6.jpg" alt="" />
+            <div class="mask-w1"></div>
+          </div>
+          </a> </div>
+      </div>
+      <div class="one-third column collages">
+        <div class="project1"> <a class="fancybox" data-fancybox-group="gallery" href="images/gallery/7t.jpg" title="Project Title">
+          <div class="pro-image1"> <img src="images/gallery/7.jpg" alt="" />
+            <div class="mask-w1"></div>
+          </div>
+          </a> </div>
+      </div>
+      <div class="one-third column illustration">
+        <div class="project1"> <a class="fancybox" data-fancybox-group="gallery" href="images/gallery/8t.jpg" title="Project Title">
+          <div class="pro-image1"> <img src="images/gallery/8.jpg" alt="" />
+            <div class="mask-w1"></div>
+          </div>
+          </a> </div>
+      </div>
+      <div class="one-third column collages">
+        <div class="project1"> <a class="fancybox" data-fancybox-group="gallery" href="images/gallery/9t.jpg" title="Project Title">
+          <div class="pro-image1"> <img src="images/gallery/9.jpg" alt="" />
+            <div class="mask-w1"></div>
+          </div>
+          </a> </div>
+      </div>
+      <div class="one-third column collages">
+        <div class="project1"> <a class="fancybox" data-fancybox-group="gallery" href="images/gallery/7t.jpg" title="Project Title">
+          <div class="pro-image1"> <img src="images/gallery/7.jpg" alt="" />
+            <div class="mask-w1"></div>
+          </div>
+          </a> </div>
+      </div>
+      <div class="one-third column illustration">
+        <div class="project1"> <a class="fancybox" data-fancybox-group="gallery" href="images/gallery/8t.jpg" title="Project Title">
+          <div class="pro-image1"> <img src="images/gallery/8.jpg" alt="" />
+            <div class="mask-w1"></div>
+          </div>
+          </a> </div>
+      </div>
+      <div class="one-third column collages">
+        <div class="project1"> <a class="fancybox" data-fancybox-group="gallery" href="images/gallery/9t.jpg" title="Project Title">
+          <div class="pro-image1"> <img src="images/gallery/9.jpg" alt="" />
+            <div class="mask-w1"></div>
+          </div>
+          </a> </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section#2 -->
+<section id="second" class="slides">
+  <div id="bloc2" class="container mil">
+    <p id="tangible" class="texto-frases">to make this experience <b>tangible</b> each time. </p>
+    <p id="imagenes" class="texto-frases">And there, inside, there are moments<br>
+      that I translate into <b>images</b></p>
+    <p id="interior" class="texto-frases">where i <b>discover</b> interior landscapes</p>
+    <p id="avion" class="texto-frases"><img src="images/avion.png" width="54" height="57" alt=""> </p>
+    <p id="ligne-points" class="texto-frases"><img src="images/ligne-points.png" width="141" height="239" alt=""></p>
+    <p id="viajo" class="texto-frases">A journey through the <b>universe</b></p>
+    <p id="llevar" class="texto-frases">I let it <b>carry me</b> and transport</p>
+    <p id="imagination" class="texto-frases"><b>imagination</b> takes its course</p>
+  </div>
+</section>
+
+<!-- Section#1 -->
+<section id="first" class="smallslides">
+  <div id="bloc1" class="container mil">
+    <p id="fija" class="texto-frases">staring at the heights</p>
+    <p id="sueno" class="texto-frases">a <b>dream</b> is born</p>
+    <p id="idea" class="texto-frases">an <b>idea</b> begins</p>
+    <p id="aqui" class="texto-frases"><b>Here</b> is where</p>
+  </div>
+</section>
+</body>
+</html>

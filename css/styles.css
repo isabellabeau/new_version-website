@@ -1,0 +1,349 @@
+/*
+RESET
+*/
+body { font: normal 100%;}
+
+html, body, address, blockquote, div, dl, form, h1, h2, h3, h4, h5, h6, ol, p, pre, table, ul,
+dd, dt, li, tbody, td, tfoot, th, thead, tr, button, del, ins, map, object,
+a, abbr, acronym, b, bdo, big, br, cite, code, dfn, em, i, img, kbd, q, samp, small, span,
+strong, sub, sup, tt, var, legend, fieldset {
+	margin: 0;
+	padding: 0;
+}
+
+img, fieldset {
+	border: 0;
+}
+
+/* set image max width to 100% */
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9; /* ie8 */
+}
+
+/* set html5 elements to block */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+    display: block;
+}
+
+
+*{outline: 0;padding: 0;margin: 0;border: 0;}
+
+.uppercase{text-transform:uppercase;}
+
+.txtcenter{text-align:center;}
+.txtbottom{vertical-align:text-bottom;}
+.txtleft{text-align:left;}
+.txtright{text-align:right;}
+
+.absolute{position:absolute;}
+.relative{position:relative;}
+
+.bottom{bottom:0px;}
+.top{top:0px;}
+.center{margin-left: auto;margin-right: auto;}
+.right{float:right;}
+.left{float:left;}
+
+.clear{clear:both;}
+
+.clickable{cursor:pointer;}
+
+.show{display:block;}
+.hide{display:none;}
+
+.faded{opacity:0.4;}
+.opaque{opacity:1.0;}
+
+.varela{font-family:'Varela Round', sans-serif;}
+.raleway{font-family:'Raleway', sans-serif;}
+.girlnextwindow{font-family:'The Girl Next Door', cursive;}
+
+.blanco {color: white;}
+.violeta {color:#4c2f4b;}
+
+.nivel1 {z-index:1;}
+.nivel3 {z-index:2;}
+.nivel4 {z-index:3;}
+.nivel5 {z-index:4;}
+
+.bloc{position:relative; margin:0; padding:0; width:100%;}
+
+.max{width:1140px; margin:0 auto;}
+
+/* BLOC 3 */
+.bloc3 {height:5063px;}
+.content3{top:0px; width:100%; height:5063px;}
+
+#tallo3 {
+	left:593px;
+	top:1842px;
+}
+
+#phrase1 {
+	left:35px;
+	top:1516px;
+	font-size:4em;
+	line-height:78px;
+	letter-spacing:-1px;
+	text-align:center;
+	z-index:2;
+	width:42%;
+}
+
+#nuage1 {
+	left:82px;
+	top:1680px;
+	z-index:2;
+}
+
+#nuage2 {
+	left:1024px;
+	top:1882px;
+	z-index:2;
+}
+
+#maison {
+	left:481px;
+	top:1409px;
+	z-index:4;
+}
+
+#fleur1 {
+	left:606px;
+	top:2286px;
+	z-index:4;
+}
+
+#phrase2 {
+	left:39px;
+	top:2351px;
+	font-size:1.6em;
+	z-index:2;
+	width:45%;
+}
+
+#go1 {
+	left:74px;
+	top:2556px;
+	z-index:2;
+}
+
+#go2 {
+	left:640px;
+	top:3602px;
+	z-index:2;
+}
+
+#isabellabeau {
+	left:42px;
+	top:3064px;
+}
+
+#titre-aboutme {
+	left:280px;
+	top:3141px;
+	text-transform: uppercase;
+	font-size:1.5em;
+	letter-spacing:5px;
+}
+
+#titre2 {
+	left:302px;
+	top:3186px;
+	color:#6e5c6f;
+	font-family: 'Miniver', cursive;
+}
+
+#fleur-moyenne-about {
+	left:904px;
+	top:3301px;
+	z-index:4;
+}
+
+#fleur-petite-about {
+	left:989px;
+	top:3345px;
+	z-index:4;
+}
+
+#texte-about {
+	left:42px;
+	top:3336px;
+	font-size:1em;
+	text-align:justify;
+	width:50%;
+}
+
+#fleur-grande-about {
+	left:917px;
+	top:3392px;
+	z-index:4;
+}
+
+#esencia {
+	left:300px;
+	top:4063px;
+	font-size:4em;
+}
+
+#fleur-jaune {
+	left:574px;
+	top:4093px;
+	z-index:4;
+}
+
+#experiencias {
+	left:253px;
+	top:366px;
+	font-size:3em;
+	text-align:right;
+}
+
+#fleur-grande {
+	left:706px;
+	top:4644px;
+	z-index:4;
+}
+
+#fleur-petite {
+	left:777px;
+	top:4744px;
+	z-index:4;
+}
+
+#instrumento {
+	left:62px;
+	top:4831px;
+	font-size:2em;
+}
+
+
+
+/* BLOC 2 */
+.bloc2 { background:#d2c608 url(../images/fond-haut-jaune.png) no-repeat top center; height:3967px;}
+.content2{top:0px; width:1140px; height:3967px;}
+
+#menu-gallery {
+	left:57px;
+	top:187px;
+}
+
+#tallo1 {
+	left:588px;
+	top:1659px;
+}
+
+#tallo2 {
+	left:593px;
+	top:0px;
+}
+
+#gallery {
+	left:54px;
+	top:221px;
+	background-color:#FFF;
+}
+
+#tangible {
+	left:74px;
+	top:1572px;
+	font-size:2.8em;
+}
+
+#imagenes {
+	right:422px;
+	top:2056px;
+	font-size:2em;
+	text-align:right;
+}
+
+#interior {
+	left:130px;
+	top:2466px;
+	font-size:3.2em;
+	text-align:center;
+	width:40%;
+}
+
+#avion {
+	left:49px;
+	top:2486px;
+}
+
+#ligne-points {
+	left:38px;
+	top:2593px;
+}
+
+#viajo {
+	left:318px;
+	top:3023px;
+	font-size:2.6em;
+	width:30%;
+}
+
+#llevar {
+	left:133px;
+	top:3556px;
+	font-size:2.3em;
+}
+
+#imagination {
+	left:31px;
+	top:3617px;
+	font-size:2.5em;
+}
+
+/* BLOC 1 */
+.bloc1 {background:url(../images/haut-raiz.png), url(../images/tierra.png); background-repeat:no-repeat, repeat; background-position: top, right; height:1678px;}
+.content1{top:0px; width:1140px; height:1678px;}
+
+.raizbgd {background: url(../images/tierra.png); background-repeat: repeat; background-position: top, right; height:1678px;}
+
+#raiz{
+	left:591px;
+	top:0px;
+}
+
+#crecer {
+	color:#603362;
+	left:658px;
+	top:270px;
+	font-size:4.3em;
+	text-align:center;
+	width:30%;
+}
+
+#fija {
+	left:164px;
+	top:637px;
+	font-size:2.8em;
+}
+
+#sueno {
+	left:50px;
+	top:694px;;
+	font-size:3.6em;
+}
+
+
+#idea {
+	left:364px;
+	top:1135px;
+	font-size:3em;
+}
+
+#aqui {
+	left:596px;
+	top:1188px;
+	font-size:2.5em;
+}
+
+#seed {
+	position:absolute;
+	left:891px;
+	top:1173px;
+
+}
