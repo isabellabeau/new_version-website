@@ -6,14 +6,70 @@
     font-size: 8.5em !important;
     line-height: 59px;
 }
+
+#phrase2 {
+    font-size: 4.6em;
+}
+
+.CV li {
+    background: url("../images/slide5_CV.png") no-repeat scroll 627px center transparent;
+}
+
+.change{
+	width:97% !important;
+}
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
+#tronco3 {
+    width: 300px;
+    height: 1770px;
+    background: url("../images/tronco-house-iphone.png") no-repeat right bottom;
+}	
+	
+.CV li {
+    background: url("../images/slide5_CV.png") no-repeat scroll 171px center transparent;
+}	
+	
+#titre-aboutme {
+    padding:0 0 20px;
+	font-size: 1.2em;
+}	
+
+#slide4 {
+    height: 946px;
+}
+
+#titre2 {
+    padding-bottom: 20px;
+}	
+		
 #phrase2 {
-    padding-top:1240px;
-    font-size:3em;
-    padding-left:120px;
-    width:60%;
+    padding-top:1100px;
+    font-size:2.5em;
+    width:55%;
+	padding-left:0;
+}
+
+#slide6-1 {
+    right: 61px;
+    top: 1410px;
+}
+
+#slide6-2 {
+    right: 356px;
+}
+
+#slide6-3 {
+    right: 356px;
+}
+
+#slide6-4 {
+    right: 356px;
+}
+
+#slide6-5 {
+    right: 838px;
 }
 
 #secret {
