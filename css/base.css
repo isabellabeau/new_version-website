@@ -505,35 +505,28 @@ img {
 }
 
 #fija {
-	left:42%;
-	top:41%;
+	padding: 300px 50px 80px 200px;
 	font-size:2.5em;
 }
 
 #sueno {
-	left:30%;
-	top:52%;
+	padding: 10px 0px 80px 280px;
 	font-size:3.6em;
 }
 
 
 #idea {
-	right:16%;
-	top:66%;
+	padding: 30px 0 30px 230px;
 	font-size:3em;
 }
 
 #aqui {
-	left:65%;
-	top:79%;
+	padding: 20px 0 0px 500px;
 	font-size:2.5em;
-	width:270px;
 }
 
 #seed {
-	position:absolute;
-	right:44%;
-	top:99%;
+	padding: 408px 0 0 169px;
 }
 
 #first{
