@@ -21,6 +21,37 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
+#instrumento {
+    font-size:2em;
+    padding-right:42px;
+}	
+	
+#slide4-3 {
+    right: 78px;
+}	
+	
+#experiencias {
+    font-size:3.2em;
+    padding:120px 75px 100px 0;
+}	
+	
+#esencia {
+    font-size:2.5em;
+}		
+	
+#slide4-1 {
+    right:20px;
+}
+
+#slide4-2 {
+    right: 52px;
+}
+	
+#tronco2 {
+    width: 137px;
+    background: url("../images/tronco2.png") no-repeat scroll center left transparent;
+}
+	
 #tronco3 {
     width: 300px;
     height: 1770px;
