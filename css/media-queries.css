@@ -1,6 +1,37 @@
 
 
 @media screen and (min-width: 768px) and (max-width: 959px) {
+#aqui {
+    padding: 20px 0px 0px 350px;
+}
+	
+#sueno {
+    padding: 10px 0px 80px 150px;
+}	
+	
+#fija {
+    padding: 270px 0 80px 116px;
+}	
+	
+#viajo {
+    width: 70%;
+    padding: 0px 0px 60px 139px;
+}	
+	
+#interior {
+    width: 57%;
+    padding: 80px 95px 0px 0px;
+}	
+	
+#imagenes {
+    font-size: 2.2em;
+    padding: 60px 10px 10px;
+}	
+	
+#tangible {
+    font-size: 2.6em;
+}	
+	
 #slide2 {
     height: 782px;
 }	
@@ -34,6 +65,70 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
+#aqui {
+    padding: 20px 0px 0px 40px;
+    font-size: 1.5em;
+}	
+	
+#idea {
+    padding: 0px 0px 30px 10px;
+    font-size: 1.8em;
+}	
+	
+#sueno {
+    padding: 0px 0px 50px 4px;
+    font-size: 1.6em;
+}	
+	
+#fija {
+    padding: 386px 52px 14px 101px;
+    font-size: 1.6em;
+    text-align: center;
+}	
+	
+#imagination {
+    font-size: 1.4em;
+    padding-top: 0px;
+    text-align: left;
+    width: 30%;
+}	
+	
+#llevar {
+    font-size: 1.5em;
+    padding: 0px 0px 80px 220px;
+}	
+	
+#viajo {	
+    font-size: 1.6em;
+    padding: 0px 0px 19px 200px;
+	text-align: center;
+	width:40%;
+}	
+	
+#ligne-points {
+    padding: 0 0 0 190px;
+}	
+	
+#avion {
+    padding: 0px 0 0 200px;
+}	
+	
+#interior {
+    font-size: 1.5em;
+	padding: 36px 0px 0px 200px;
+	width: 24%;
+}	
+	
+#imagenes {
+    font-size: 1.6em;
+    padding: 42px 0px 0px 190px;
+}	
+	
+#tangible {
+    font-size:1.8em;
+	padding-bottom:0px;
+}	
+	
 #slide2 {
     height: 2880px;
 }	
