@@ -290,6 +290,138 @@ img {
 }
 
 
+/* 2 */
+
+
+.project1{
+	position:relative;
+	overflow:hidden;
+	width: 300px;
+	height:200px;
+	-webkit-transition : all 0.3s ease-in;
+	-moz-transition : all 0.3s ease-in;
+	-o-transition :all 0.3s ease-in;
+	transition : all 0.3s ease-in;
+}
+
+.project1 a{ 
+	display:block;
+}
+
+.project1 a .pro-image1{
+	position:relative;
+	margin:0 auto;
+}
+
+.project1 a .pro-image1 img{
+	width: 100%;
+	height:auto;
+   -webkit-transform: scaleY(1);
+   -moz-transform: scaleY(1);
+   -o-transform: scaleY(1);
+   -ms-transform: scaleY(1);
+   transform: scaleY(1);
+   -webkit-transition: all 0.3s ease-in-out;
+   -moz-transition: all 0.3s ease-in-out;
+   -o-transition: all 0.3s ease-in-out;
+   -ms-transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out;
+}
+
+.project1 a:hover .pro-image1 img{
+   -webkit-transform: scale(1.5);
+   -moz-transform: scale(1.5);
+   -o-transform: scale(1.5);
+   -ms-transform: scale(1.5);
+   transform: scale(1.5);
+}
+
+.project1 a .pro-image1 .mask-w1 {
+	width: 0%;
+	height:0%;
+	top:0;
+	left:0;
+	-webkit-transition : all 0.3s ease-in;
+	-moz-transition : all 0.3s ease-in;
+	-o-transition :all 0.3s ease-in;
+	transition : all 0.3s ease-in;
+}
+	
+.project1 a:hover .pro-image1 .mask-w1 {
+	background:rgba(41,41,41,.7) url(../images/mag.png) no-repeat center center;
+	opacity:1;
+}
+
+.project1 a .pro-image1 .mask-w1 {
+	   width: 100%;
+	   height:100%;
+	   position: absolute;
+}
+	
+.project1 a .pro-title1{
+	position:absolute;
+	height:40px;
+	width:100%;
+	top:50%;
+	margin-top:-25px;
+	opacity:0;
+	-webkit-transition : all 0.3s ease-in;
+	-moz-transition : all 0.3s ease-in;
+	-o-transition :all 0.3s ease-in;
+	transition : all 0.3s ease-in;
+}	
+.project1 a:hover .pro-title1{
+	opacity:1;
+}
+.project1 a .pro-title1 h6{
+	text-align:center;
+	font-family: 'Lato', sans-serif;
+	color:#fff;
+	line-height:40px;
+	font-size:24px;
+	-webkit-transition : all 0.3s ease-in;
+	-moz-transition : all 0.3s ease-in;
+	-o-transition :all 0.3s ease-in;
+	transition : all 0.3s ease-in;
+}
+
+.filter {
+	font-family: 'Varela Round',sans-serif,Georgia,"Times New Roman",Times,serif;
+    display: inline-block;
+    top: 50px;
+    z-index: 30;
+}
+
+.filter ul {
+    list-style: none outside none;
+}
+
+.filter li {
+    float: left;
+    font-size: 16px;
+    margin-bottom: 0px;
+    padding: 0px 25px;
+    list-style-type: none;
+}
+
+.filter li a {
+	color:white;
+	text-transform: uppercase;
+	transition: all 0.2s ease-out 0s;
+}
+
+.filter li a:hover {
+	color:#DA5049;
+	border-bottom:1px dotted #DA5049;
+}
+
+#slide2 {
+	width:100%;
+	height:1000px;
+	background-color:#d2c608;
+}
+
+
 /*
 
 #fourth { background: url(../images/fond4.png) 50% 0 no-repeat; }
